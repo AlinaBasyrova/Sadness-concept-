@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f82a8f3095da02743b6c0ef545f2d65b
+guid: ca220dc93c63bb448995bc9da606cf19
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -354645055636251103
-    second: roomBG2_0
+      213: 2184377591277971420
+    second: stoneOBJ_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: roomBG2_0
+      name: stoneOBJ_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 221
-        height: 222
+        width: 83
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12ed37d633c041bf0800000000000000
-      internalID: -354645055636251103
+      spriteID: cd7627f88d7705e10800000000000000
+      internalID: 2184377591277971420
       vertices: []
       indices: 
       edges: []

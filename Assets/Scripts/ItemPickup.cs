@@ -2,15 +2,18 @@ using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
-    public InventoryManager inventoryManager;
-    public Item itemToAdd;
+    public Item item; // Какой предмет подбираем
 
     private void OnMouseDown()
     {
-        bool added = inventoryManager.AddItem(itemToAdd);
-        if (added)
+        if (InventoryManager.Instance.AddItem(item))
         {
-            Destroy(gameObject);
+            Destroy(gameObject); // Успех: убираем предмет
+        }
+        else
+        {
+            Debug.Log("Инвентарь полон!");
+            // Предмет не убирается со сцены, потому что слот занят
         }
     }
 }
